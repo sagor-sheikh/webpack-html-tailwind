@@ -86,10 +86,10 @@ module.exports = {
         tag: '<include-check />',
         content: fs.readFileSync(path.resolve(__dirname, "src/partials/check.html")),
       },
-      {
-        tag: '<include-test />',
-        content: fs.readFileSync(path.resolve(__dirname, "src/partials/test.html")),
-      },
+      // {
+      //   tag: '<include-test />',
+      //   content: fs.readFileSync(path.resolve(__dirname, "src/partials/test.html")),
+      // },
     ])
   ],
   output: {
